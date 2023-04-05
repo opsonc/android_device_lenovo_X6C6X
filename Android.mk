@@ -5,8 +5,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := $(call my-dir)
+ifneq ($(filter X6C6X,$(TARGET_DEVICE)),)
 
-ifeq ($(TARGET_DEVICE),X6C6X)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
+LOCAL_PATH := device/lenovo/X6C6X
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
+
 endif
