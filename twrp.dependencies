@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "opsonc",
+    "repository": "android_kernel_lenovo_X6C6X",
+    "target_path": "kernel/lenovo/X6C6X/",
+    "revision": "4.19"
+  }
+]
