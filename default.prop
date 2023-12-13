@@ -68,6 +68,7 @@ ro.product.brand=meanIT
 ro.product.name=meanIT_C1
 ro.product.device=meanIT_C1
 ro.product.board=meanIT_C1
+ro.product.first_api_level=24
 ro.product.xunhu.device=t960w_v1_m_tyc_m50c13_c1_1s
 # ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,
 # use ro.product.cpu.abilist instead.
