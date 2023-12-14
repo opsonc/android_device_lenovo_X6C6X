@@ -1,7 +1,12 @@
+#
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 
+LOCAL_PATH := device/lenovo/X6C6X
 
-LOCAL_PATH := device/meanIT/meanIT_C1
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/twrp_X6C6X.mk
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_meanIT_C1.mk
-
-COMMON_LUNCH_CHOICES := omni_meanIT_C1-eng
+COMMON_LUNCH_CHOICES := twrp_X6C6X-eng
